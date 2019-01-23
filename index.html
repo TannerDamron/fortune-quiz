@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Fortune Teller</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fortune Teller Quiz</h1>
+      <h4>Fill out the following quiz to see how luck you are</h4>
+    <form id="survey">
+      <h2>Check all lucky things that have happend to you in the last month!</h2>
+      <input type="checkbox" name="lucky" value="money">Found money<br>
+      <input type="checkbox" name="lucky" value="rainbow">See a rainbow<br>
+      <input type="checkbox" name="lucky" value="clover">4 leaf clover<br>
+      <input type="checkbox" name="lucky" value="food">Free Food<br>
+      <input type="checkbox" name="lucky" value="raise">Got a raise<br>
+      <input type="checkbox" name="lucky" value="rabbit">found a rabbits foot<br>
+      <h2>What unlucky things apply to you from this month?</h2>
+      <input type="checkbox" name="unlucky" value="fired">Got Fired<br>
+      <input type="checkbox" name="unlucky" value="ladder">Walk under ladder<br>
+      <input type="checkbox" name="unlucky" value="salt">Spilled salt<br>
+      <input type="checkbox" name="unlucky" value="mirror">Broke a mirror<br>
+      <input type="checkbox" name="unlucky" value="cat">Black Cat<br>
+      <input type="checkbox" name="unlucky" value="hit">Hit and Run<br>
+      <button class="btn btn-info btn-md" type="submit" name="button">Submit!</button>
+    </form>
+    <div id="lucky">
+      <h1>You are one lucky muffhugger</h1>
+    </div>
+    <div id="unlucky">
+      <h1>You are one unlucky muffhugger</h1>
+    </div>
+    <div id="static">
+      <h1>Honestly dude you just normal</h1>
+    </div>
+  </body>
+</html>
